@@ -1,0 +1,255 @@
+/*css reset*/
+
+*{
+  box-sizing: border-box;
+}
+
+#wrapper {
+  width: 100vw;
+  height: 100vw;
+  position: relative;
+  display: block;
+  font-family: sans-serif;
+}
+
+a:hover {
+  text-decoration: underline; /*lehet hogy ezt átrakom hátra*/
+}
+/*header*/
+
+#header-top {
+  position: absolute;
+  display: block;
+  right: 20px;
+  top: 10px;
+  font-size: 12px;
+  line-height: 19px;
+  margin-left: 180px;
+}
+.header-top-list {
+  display: inline;
+  margin: auto 3px;
+}
+.header-top-link {
+  text-decoration: none;
+  color: #0645ad;
+}
+.header-top-link:visited {
+  color: #0b0080;
+}
+#header-top-small {
+  color: #797979;
+}
+
+
+/*aside cover*/
+
+#aside-cover {
+  position: absolute;
+  display: block;
+  left: 10px;
+  top: 10px;
+  width: 160px;
+  height: auto;
+  font-size: 12px;
+  line-height: 19px;
+}
+
+#aside {
+  margin-left: 15px;
+}
+#logo {
+  width: 150px;
+  height: 150px;
+  background-image: url('https://www.famouslogos.net/images/wikipedia-logo.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.aside-h5 {
+  margin-top: 13px;
+}
+.aside-hr {
+  margin-top: 0px;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  color: #797979;
+}
+
+.aside-link {
+  text-decoration: none;
+  color: #0645ad;
+}
+.aside-link:visited {
+  color: #0b0080;
+}
+#edit {
+  text-align: right;
+  padding-right: 10px;
+}
+#edit-link {
+  text-decoration: none;
+  color: #797979;
+}
+#edit-link:hover {
+  text-decoration: underline;
+}
+
+
+/*article*/
+
+#article {
+  position: absolute;
+  display: block;
+  left: 180px;
+  top: 100px;
+  border: 1px solid #A7D7F9;
+  padding: 25px;
+  line-height: 22px;
+}
+
+/*img-big*/
+
+#img-big {
+  border: 1px solid #a2a9b1;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 15px 25px;
+}
+
+#img-big-h3 {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+}
+#img-big-figcaption {
+  text-align: center;
+  font-size: 12px;
+}
+
+#img-big-table{
+  position: relative;
+  right: 15px;
+  font-size: 13px;
+}
+td {
+  padding-right: 6px
+}
+
+.table-link {
+  text-decoration: none;
+  color: #0645ad;
+}
+.table-link:hover {
+  text-decoration: underline;
+}
+.table-link:visited {
+  color: #0b0080;
+}
+
+/*contents list*/
+#content-list {
+  border: 1px solid #a2a9b1;
+  font-size: 13px;
+  max-width: 140px;
+  padding: 10px 10px;
+}
+
+#content-list-p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.control-link {
+  text-decoration: none;
+  color: #0645ad;
+  font-weight: 100;
+  font-size: 13px;
+}
+#content-hide-a:hover {
+  text-decoration: underline;
+}
+.content-list-a {
+  text-decoration: none;
+  color: #0645ad;
+}
+.content-list-a:visited, #content-hide-a:visited {
+  color: #0b0080;
+} 
+.content-list-a>span {
+  padding-right: 10px;
+}
+#content-list-a-span {
+  padding-left: 10px;
+}
+
+/*main title*/
+
+#main-title {
+  margin-bottom: 20px;
+}
+#title {
+  font-size: 28px;
+  font-style: italic;/*a linux libertine fontkészletet sehogy sem találtam belinkelhető formában*/
+}
+#title-small {
+  font-size: 12px;
+}
+#title-p {
+  font-size: 14px;
+}
+#title-strong {
+  font-weight: bold;
+  font-style: italic;
+}
+.content {
+  font-size: 14px;
+}
+
+/*story*/
+
+.content-h2 {
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

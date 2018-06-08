@@ -4,11 +4,15 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 100%;
+  width: 100vw;
+}
+
 #wrapper {
   width: 100vw;
-  height: 100vw;
+  min-height:100%;
   position: relative;
-  display: block;
   font-family: sans-serif;
 }
 
@@ -39,6 +43,46 @@ a:hover {
 }
 #header-top-small {
   color: #797979;
+}
+
+/* header bottom*/
+
+
+.header-button {
+  background: linear-gradient(white, rgba(167,215,249,.4));
+  border: none;
+  color:  #0645ad;
+  border-left: 1px solid rgba(167,215,249,1);
+  border-right: 1px solid rgba(167,215,249,1);
+}
+.header-button:active {
+  color: black;
+  background-color: white;
+}
+.header-button:hover {
+  text-decoration: underline;
+}
+
+#left-button {
+  position: absolute;
+  top: 84px;
+  left: 180px;
+}
+#right-button {
+  position: absolute;
+  top: 84px;
+  right: 28vw;
+}
+#search-wiki {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  width: 25vw;
+}
+#search-wiki-ikon {
+  position: absolute;
+  right: 20px;
+  top: 82px;
 }
 
 
@@ -99,6 +143,11 @@ a:hover {
   text-decoration: underline;
 }
 
+.language-settings {
+  float: right;
+  color: #797979;
+  font-size: 14px;
+}
 
 /*article*/
 
@@ -111,6 +160,28 @@ a:hover {
   padding: 25px;
   line-height: 22px;
 }
+.article-links {
+  color: #0645ad;
+  text-decoration: none;
+}
+.article-links:hover {
+  text-decoration: underline;
+}
+.article-links:visited {
+  color: #0b0080;
+}
+#content-h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.content-hr {
+  margin: 0;
+}
+.content-p {
+  margin-top: 5px;
+}
+
 
 /*img-big*/
 
@@ -127,6 +198,7 @@ a:hover {
   font-weight: bold;
   font-style: italic;
 }
+
 #img-big-figcaption {
   text-align: center;
   font-size: 12px;
@@ -153,11 +225,13 @@ td {
 }
 
 /*contents list*/
+
 #content-list {
   border: 1px solid #a2a9b1;
   font-size: 13px;
   max-width: 140px;
   padding: 10px 10px;
+  margin-top: 5px;
 }
 
 #content-list-p {
@@ -170,6 +244,7 @@ td {
   color: #0645ad;
   font-weight: 100;
   font-size: 13px;
+  margin-left: 5px;
 }
 #content-hide-a:hover {
   text-decoration: underline;
@@ -215,20 +290,89 @@ td {
 
 .content-h2 {
   font-size: 20px;
+  margin-top: 20px;
 }
 
+/*gameplay*/
 
+#gameplay-img-cover {
+  border: 1px solid #a2a9b1;
+  width: 195px;
+  padding: 5px;
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+#gameplay-figcaption {
+  font-size: 12px;
+}
+#enlarge {
+  float: right;
+  margin: 5px;
+}
+#enlarge-a {
+  color: #797979;
+}
 
+/*references*/
 
+.references-list-li {
+  list-style-type: decimal;
+  font-size: 13px;
+}
+#references-list-ol {
+  margin: 5px 0 0 20px;
+}
 
+/*external links*/
 
+.external-link-list-li {
+  list-style-type: square;
+}
+.list-ol {
+  margin: 5px 0 0 20px
+}
+.external-link-em {
+  font-style: italic;
+}
 
+/*categories*/
 
+#categories {
+  border: 1px solid #797979;
+  font-size: 14px;
+  color: #797979;
+  margin-top: 20px;
+  padding: 10px 0 10px 5px;
+}
 
+/*footer*/
 
-
-
-
+#footer {
+  position: absolute;
+  padding: 25px 25px 0 0;
+  width: 100%;
+  font-size: 11px;
+}
+.footer-small {
+  display: block;
+  padding: 10px 0;
+}
+#footer-list {
+  display: inline;
+}
+.footer-list-li {
+  display: inline;
+  margin-right: 15px;
+}
+.footer-button {
+  height: 31px;
+  width: 88px;
+}
+#footer-button-first {
+  background-image: url('https://en.wikipedia.org/static/images/wikimedia-button-2x.png');
+}
 
 
 

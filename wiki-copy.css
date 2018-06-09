@@ -159,6 +159,7 @@ a:hover {
   border: 1px solid #A7D7F9;
   padding: 25px;
   line-height: 22px;
+  margin-right: 20px;
 }
 .article-links {
   color: #0645ad;
@@ -320,6 +321,7 @@ td {
 .references-list-li {
   list-style-type: decimal;
   font-size: 13px;
+  line-height: 16px;
 }
 #references-list-ol {
   margin: 5px 0 0 20px;
@@ -369,9 +371,7 @@ td {
 .footer-button {
   height: 31px;
   width: 88px;
-}
-#footer-button-first {
-  background-image: url('https://en.wikipedia.org/static/images/wikimedia-button-2x.png');
+  display: inline;
 }
 
 
@@ -397,3 +397,19 @@ td {
 
 
 
+
+
+#footer-button-list {
+  float: right;
+  display: inline;
+  margin-right: 20px;
+}
+
+.sup-link {
+  vertical-align: super;
+  font-size: 10px;
+}
+
+#references-list-wrapper {
+  margin-left: 15px;
+}

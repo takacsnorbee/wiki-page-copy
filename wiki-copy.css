@@ -17,7 +17,7 @@ body {
 }
 
 a:hover {
-  text-decoration: underline; /*lehet hogy ezt átrakom hátra*/
+  text-decoration: underline; 
 }
 /*header*/
 
@@ -326,6 +326,14 @@ td {
 #references-list-ol {
   margin: 5px 0 0 20px;
 }
+#references-list-wrapper {
+  margin-left: 15px;
+}
+.sup-link {
+  vertical-align: super;
+  font-size: 10px;
+}
+
 
 /*external links*/
 
@@ -374,42 +382,11 @@ td {
   display: inline;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #footer-button-list {
   float: right;
   display: inline;
   margin-right: 20px;
 }
 
-.sup-link {
-  vertical-align: super;
-  font-size: 10px;
-}
 
-#references-list-wrapper {
-  margin-left: 15px;
-}
+

@@ -30,17 +30,21 @@ a:hover {
   line-height: 19px;
   margin-left: 180px;
 }
+
 .header-top-list {
   display: inline;
   margin: auto 3px;
 }
+
 .header-top-link {
   text-decoration: none;
   color: #0645ad;
 }
+
 .header-top-link:visited {
   color: #0b0080;
 }
+
 #header-top-small {
   color: #797979;
 }
@@ -55,10 +59,12 @@ a:hover {
   border-left: 1px solid rgba(167,215,249,1);
   border-right: 1px solid rgba(167,215,249,1);
 }
+
 .header-button:active {
   color: black;
   background-color: white;
 }
+
 .header-button:hover {
   text-decoration: underline;
 }
@@ -68,23 +74,25 @@ a:hover {
   top: 84px;
   left: 180px;
 }
+
 #right-button {
   position: absolute;
   top: 84px;
   right: 28vw;
 }
+
 #search-wiki {
   position: absolute;
   top: 80px;
   right: 20px;
   width: 25vw;
 }
+
 #search-wiki-ikon {
   position: absolute;
   right: 20px;
   top: 82px;
 }
-
 
 /*aside cover*/
 
@@ -102,12 +110,11 @@ a:hover {
 #aside {
   margin-left: 15px;
 }
+
 #logo {
   width: 150px;
   height: 150px;
-  background-image: url('https://www.famouslogos.net/images/wikipedia-logo.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
+  background: url('https://www.famouslogos.net/images/wikipedia-logo.jpg') no-repeat center;
   background-size: cover;
   margin-bottom: 20px;
   margin-top: 10px;
@@ -116,6 +123,7 @@ a:hover {
 .aside-h5 {
   margin-top: 13px;
 }
+
 .aside-hr {
   margin-top: 0px;
   border: 0;
@@ -128,17 +136,21 @@ a:hover {
   text-decoration: none;
   color: #0645ad;
 }
+
 .aside-link:visited {
   color: #0b0080;
 }
+
 #edit {
   text-align: right;
   padding-right: 10px;
 }
+
 #edit-link {
   text-decoration: none;
   color: #797979;
 }
+
 #edit-link:hover {
   text-decoration: underline;
 }
@@ -161,10 +173,12 @@ a:hover {
   line-height: 22px;
   margin-right: 20px;
 }
+
 .article-links {
   color: #0645ad;
   text-decoration: none;
 }
+
 .article-links:hover {
   text-decoration: underline;
 }
@@ -176,9 +190,11 @@ a:hover {
   font-weight: bold;
   margin-top: 10px;
 }
+
 .content-hr {
   margin: 0;
 }
+
 .content-p {
   margin-top: 5px;
 }
@@ -218,9 +234,11 @@ td {
   text-decoration: none;
   color: #0645ad;
 }
+
 .table-link:hover {
   text-decoration: underline;
 }
+
 .table-link:visited {
   color: #0b0080;
 }
@@ -238,6 +256,7 @@ td {
 #content-list-p {
   text-align: center;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .control-link {
@@ -247,19 +266,24 @@ td {
   font-size: 13px;
   margin-left: 5px;
 }
+
 #content-hide-a:hover {
   text-decoration: underline;
 }
+
 .content-list-a {
   text-decoration: none;
   color: #0645ad;
 }
+
 .content-list-a:visited, #content-hide-a:visited {
   color: #0b0080;
 } 
-.content-list-a>span {
+
+.content-list-a>span, {
   padding-right: 10px;
 }
+
 #content-list-a-span {
   padding-left: 10px;
 }
@@ -269,20 +293,25 @@ td {
 #main-title {
   margin-bottom: 20px;
 }
+
 #title {
   font-size: 28px;
   font-style: italic;/*a linux libertine fontkészletet sehogy sem találtam belinkelhető formában*/
 }
+
 #title-small {
   font-size: 12px;
 }
+
 #title-p {
   font-size: 14px;
 }
+
 #title-strong {
   font-weight: bold;
   font-style: italic;
 }
+
 .content {
   font-size: 14px;
 }
@@ -301,17 +330,18 @@ td {
   width: 195px;
   padding: 5px;
   float: left;
-  margin-bottom: 10px;
-  margin-right: 20px;
-  margin-top: 10px;
+  margin: 10px 20px 10px 0;
 }
+
 #gameplay-figcaption {
   font-size: 12px;
 }
+
 #enlarge {
   float: right;
   margin: 5px;
 }
+
 #enlarge-a {
   color: #797979;
 }
@@ -323,12 +353,15 @@ td {
   font-size: 13px;
   line-height: 16px;
 }
+
 #references-list-ol {
   margin: 5px 0 0 20px;
 }
+
 #references-list-wrapper {
   margin-left: 15px;
 }
+
 .sup-link {
   vertical-align: super;
   font-size: 10px;
@@ -340,9 +373,11 @@ td {
 .external-link-list-li {
   list-style-type: square;
 }
+
 .list-ol {
   margin: 5px 0 0 20px
 }
+
 .external-link-em {
   font-style: italic;
 }
@@ -365,27 +400,35 @@ td {
   width: 100%;
   font-size: 11px;
 }
+
 .footer-small {
   display: block;
   padding: 10px 0;
 }
+
 #footer-list {
   display: inline;
 }
+
 .footer-list-li {
   display: inline;
   margin-right: 15px;
 }
+
 .footer-button {
   height: 31px;
   width: 88px;
-  display: inline;
+  margin-top: 4px;
 }
 
 #footer-button-list {
   float: right;
-  display: inline;
   margin-right: 20px;
+  margin-top: 20px;
+}
+
+#footer-button-list li {
+  display: inline;
 }
 
 

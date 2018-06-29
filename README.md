@@ -1,14 +1,14 @@
 ## Slideshow
 It is a bigger Codeberry project, a copy of a wikipedia page.
-No JavaScript used. 
+In the last update, I added a little jQuery code.
 
 ## Built With
 
-- HTML 
+- HTML
 - CSS
-- media quire
-- CSS reset
-- font style added
+- Media quire
+- css reset and font style added
+- jQuery
 
 ## Live Version
 
